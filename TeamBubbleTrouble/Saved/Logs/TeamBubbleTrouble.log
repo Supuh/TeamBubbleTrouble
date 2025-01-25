@@ -1461,3 +1461,711 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.25-06.01.36:335][370]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
 [2025.01.25-06.01.49:640][410]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
 [2025.01.25-06.02.07:535][464]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.01.25-06.05.07:048][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 731.969177
+[2025.01.25-06.05.08:051][  5]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-06.05.08:051][  5]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 732.634766, Update Interval: 341.209137
+[2025.01.25-06.05.46:844][117]LogPSOHitching: Encountered 50 PSO creation hitches so far (18 graphics, 32 compute). 0 of them were precached.
+[2025.01.25-06.07.51:566][ 86]LogWindowsTextInputMethodSystem: Activated input method: 繁體中文 (台灣) - 微軟注音 (TSF IME).
+[2025.01.25-06.07.58:426][567]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.25-06.07.58:638][567]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.01.25-06.07.58:638][567]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.01.25-06.07.58:730][567]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 92.061 ms
+[2025.01.25-06.07.58:734][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.25-06.07.58:807][567]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.01.25-06.07.58:807][567]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.01.25-06.07.58:824][567]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.01.25-06.07.58:831][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007016s)
+[2025.01.25-06.07.58:831][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007093s)
+[2025.01.25-06.07.58:924][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.01.25-06.07.58:944][567]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.01.25-06.07.58:983][567]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.25-06.07.58:983][567]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.25-06.07.58:983][567]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.25-06.07.58:983][567]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.25-06.07.58:985][567]LogWorldPartition: Display: WorldPartition initialize took 2.874 ms (total: 308.913 ms)
+[2025.01.25-06.07.58:986][567]LogPlayLevel: PIE: World Init took: (0.041034s)
+[2025.01.25-06.07.58:987][567]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.01.25-06.07.58:987][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.25-06.07.58:987][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.25-06.07.58:987][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.25-06.07.58:987][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.25-06.07.58:987][567]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.25-06.07.58:987][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.25-06.07.58:987][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.25-06.07.58:987][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.25-06.07.58:987][567]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.25-06.07.58:987][567]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.25-06.07.58:987][567]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.25-06.07.58:990][567]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.25-06.07.59:034][567]LogAudioMixer: Display: Using Audio Hardware Device 喇叭 (Realtek(R) Audio)
+[2025.01.25-06.07.59:034][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.25-06.07.59:034][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.25-06.07.59:034][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.25-06.07.59:035][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.01.25-06.07.59:036][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.01.25-06.07.59:039][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.01.25-06.07.59:039][567]LogInit: FAudioDevice initialized with ID 2.
+[2025.01.25-06.07.59:039][567]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.01.25-06.07.59:039][567]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2025.01.25-06.07.59:039][567]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.01.25-06.07.59:061][567]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.01.25-06.07.59:074][567]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.01.25-01.07.59
+[2025.01.25-06.07.59:082][567]LogWorld: Bringing up level for play took: 0.011352
+[2025.01.25-06.07.59:086][567]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2025.01.25-06.07.59:564][567]PIE: Server logged in
+[2025.01.25-06.07.59:566][567]PIE: Play in editor total start time 1.131 seconds.
+[2025.01.25-06.08.50:154][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-06.08.50:154][685]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.01.25-06.08.50:154][685]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-06.08.50:155][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-06.08.50:155][685]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.01.25-06.08.50:168][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.25-06.08.50:174][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-06.08.50:217][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-06.08.50:218][685]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.01.25-06.08.50:223][685]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.01.25-06.08.50:226][685]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.01.25-06.08.50:324][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.01.25-06.08.50:372][686]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: ================================================
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Total job queries 145, among them cache hits 3 (2.07%), DDC hits 130 (89.66%), Duplicates 2 (1.38%)
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Tracking 140 distinct input hashes that result in 132 distinct outputs (94.29%)
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: RAM used: 117.28 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Shaders Compiled: 10
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Time job spent in pending queue: average 6.70 s, longest 15.58 s
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Job execution time: average 9.24 s, max 15.59 s
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Job life time (pending + execution): average 15.94 s, max 18.93
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Shader code size: average 7.898 KiB, min 5.012 KiB, max 12.055 KiB
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 18.99 s
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Average processing rate: 0.53 jobs/sec
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Total thread time: 48.948 s
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Total thread preprocess time: 3.803 s
+[2025.01.25-06.08.56:020][ 86]LogShaderCompilers: Display: Percentage time preprocessing: 7.77%
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: Effective parallelization: 2.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 5.73 sec, max 7.12 sec, min 4.34 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 4.55 sec, max 5.53 sec, min 3.56 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 4.44 sec, max 4.81 sec, min 4.07 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 3.40 sec, max 3.58 sec, min 3.22 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    2 times, average 3.37 sec, max 3.92 sec, min 2.81 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.41% of total time (compiled    2 times, average 5.73 sec, max 7.12 sec, min 4.34 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 18.58% of total time (compiled    2 times, average 4.55 sec, max 5.53 sec, min 3.56 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                                 FLumenCardPS - 18.14% of total time (compiled    2 times, average 4.44 sec, max 4.81 sec, min 4.07 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.89% of total time (compiled    2 times, average 3.40 sec, max 3.58 sec, min 3.22 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display:                                                FAnisotropyPS - 13.75% of total time (compiled    2 times, average 3.37 sec, max 3.92 sec, min 2.81 sec)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: === Material stats ===
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: Materials Translated:    129
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: Material Total Translate Time: 1.28 s
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: Material Translation Only: 0.42 s (33%)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: Material Cache Hits: 21 (16%)
+[2025.01.25-06.08.56:021][ 86]LogShaderCompilers: Display: ================================================
+[2025.01.25-06.09.18:386][660]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.25-06.09.18:530][660]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.25-06.09.18:551][661]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.25-06.09.20:354][786]LogSlate: Took 0.096267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.01.25-06.09.39:529][275]LogContentBrowser: Attempting asset rename: NewFolder -> David
+[2025.01.25-06.09.39:530][275]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.25-06.10.11:691][753]LogSlate: Window 'Save Level As' being destroyed
+[2025.01.25-06.10.12:015][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.01.25-06.10.12:147][753]LogChaosDD: Creating Chaos Debug Draw Scene for world Davidtest
+[2025.01.25-06.10.12:147][753]LogWorldPartition: ULevel::OnLevelLoaded(Davidtest)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.25-06.10.12:149][753]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.25-06.10.12:149][753]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Davidtest.Davidtest, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.25-06.10.12:149][753]LogWorldPartition: Display: WorldPartition initialize took 617 us (total: 309.530 ms)
+[2025.01.25-06.10.12:195][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Davidtest" FILE="../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/Davidtest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-06.10.12:211][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.01.25-06.10.12:293][753]LogSavePackage: Moving output files for package: /Game/Davidtest
+[2025.01.25-06.10.12:293][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/DavidtestCFE48E57404D135BCFC27EB41FFCD2F9.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/Davidtest.umap'
+[2025.01.25-06.10.12:440][753]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Davidtest/5/ER/RF714U9Y37D0CHS1E8C3FW
+/Game/__ExternalActors__/Davidtest/3/AT/GM6LLSEMOL11R19G4GE4WD
+/Game/__ExternalActors__/Davidtest/A/AR/475PGL6ZS6LYW3U3R5DSBF
+/Game/__ExternalActors__/Davidtest/6/WR/0ORUQYFU2EA6Z2GRS91Q1N
+/Game/__ExternalActors__/Davidtest/6/LY/1EOGI9UWACWSE6PHC3IIFL
+/Game/__ExternalActors__/Davidtest/4/VZ/MO9P972SY2QVZUG01MFGUF
+/Game/__ExternalActors__/Davidtest/C/PL/HVS6L2FBTI657O778048AU
+/Game/__ExternalActors__/Davidtest/4/UT/M23EHJ6SLKGMS9X94PP3VV
+/Game/__ExternalActors__/Davidtest/0/KM/DAMFQHR5W47GLCGW8XA8OU
+/Game/__ExternalActors__/Davidtest/9/RB/XU0ZHT2N0DXUORSAHEWKZJ
+/Game/__ExternalActors__/Davidtest/B/JX/O8NP8I0Z21W3VUNCH3EW7A
+/Game/__ExternalActors__/Davidtest/7/CI/U1IX55BCV2DSUQI48K1A8J
+/Game/__ExternalActors__/Davidtest/C/4T/VASTZR6ML4SVM42DPZ08YC
+/Game/__ExternalActors__/Davidtest/B/QM/PI93F1QUXAN3MLYVF5F0EQ
+/Game/__ExternalActors__/Davidtest/9/6W/DDWSAF67XI59YB145VLD10
+/Game/__ExternalActors__/Davidtest/1/5Y/PO9AK7QD6AED6QRDDVP6AU
+/Game/__ExternalActors__/Davidtest/F/3B/O0PM32I4RQYDIU0WFCTDZY
+/Game/__ExternalActors__/Davidtest/C/5S/GL0ZJWX8I9DV6I1FQL7PH2
+/Game/__ExternalActors__/Davidtest/7/3R/YKOQDNYO8NGYL08RT7RNML
+/Game/__ExternalActors__/Davidtest/B/EA/A8I0JOSOB05T4INHFFEIPS
+/Game/__ExternalActors__/Davidtest/C/IO/QFESGGQPX9LW1A2X5PFQHG
+/Game/__ExternalActors__/Davidtest/6/DS/3COXZ8V6TMP774G9LLGOKF
+/Game/__ExternalActors__/Davidtest/5/VN/XCJS8RBSLLNDKI923UBF4N
+/Game/__ExternalActors__/Davidtest/7/GM/35K00Y4V0OOTFVMH5LV267
+/Game/__ExternalActors__/Davidtest/2/KT/VUHKDCDWS9G2CPJ8IT6OTR
+/Game/__ExternalActors__/Davidtest/7/RB/C3IPW9AL8XG43TK57GRR6F
+/Game/__ExternalActors__/Davidtest/9/QO/NIRRSD6BBHXTV10ZI37FEN
+/Game/__ExternalActors__/Davidtest/2/L1/JP39QP7SHE43RQKXMTE7JY
+/Game/__ExternalActors__/Davidtest/6/YS/I0FRM8PGOX1NU9DOSH0084
+/Game/__ExternalActors__/Davidtest/2/85/0IYZJHDY2UBBKL0U20TT8K
+/Game/__ExternalActors__/Davidtest/6/78/GYC59UULWC95HNA9OWIZTB
+/Game/__ExternalActors__/Davidtest/7/V2/BT1F0Q1Q1T4MSJNK07KJEQ
+/Game/__ExternalActors__/Davidtest/1/NW/8NQV8XS1ER22QFKB96M7A9
+/Game/__ExternalActors__/Davidtest/0/83/ON8BKBHGNMQ8AO9J6NVF8V
+/Game/__ExternalActors__/Davidtest/2/KL/I4ANPN197WY1POKHQVTD14
+/Game/__ExternalActors__/Davidtest/A/NT/3HP955I0O0TVT89AFIEMXM
+/Game/__ExternalActors__/Davidtest/8/TZ/57HSJPPR4NB87JAG0QIYST
+/Game/__ExternalActors__/Davidtest/B/4X/B98UK6V9SOOUKL5FP8H1MU
+/Game/__ExternalActors__/Davidtest/E/CR/3DH7ADIKQPCR5U7FT62ZUY
+/Game/__ExternalActors__/Davidtest/5/X7/XVKFNLHOLPJ8BZ95ZHRPBT
+/Game/__ExternalObjects__/Davidtest/7/ZR/RT9UT9OR6OSADLNUXFPZR1
+/Game/__ExternalObjects__/Davidtest/5/VD/FMY86DR2IXO93XCZS138CC
+/Game/__ExternalObjects__/Davidtest/D/TA/K8EY40N7ISCNSZZQXLC7QQ
+/Game/__ExternalObjects__/Davidtest/A/D8/ENLIIIX968UXTHN6ZLZMIF
+/Game/__ExternalObjects__/Davidtest/A/82/F16B8NBRQJ42QB7H5KW5M6
+/Game/__ExternalObjects__/Davidtest/B/KN/E8VB2I4MUQNW98F86VSPQ8
+[2025.01.25-06.10.12:440][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-06.10.12:442][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/5/ER/RF714U9Y37D0CHS1E8C3FW
+[2025.01.25-06.10.12:442][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/RF714U9Y37D0CHS1E8C3FW6870AA174FE30358DFD6FFA465EDC0B1.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/5/ER/RF714U9Y37D0CHS1E8C3FW.uasset'
+[2025.01.25-06.10.12:498][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/3/AT/GM6LLSEMOL11R19G4GE4WD
+[2025.01.25-06.10.12:498][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/GM6LLSEMOL11R19G4GE4WD3BF3F9F84FB6B7ED9B2C35A6278CBBAD.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/3/AT/GM6LLSEMOL11R19G4GE4WD.uasset'
+[2025.01.25-06.10.12:502][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/A/AR/475PGL6ZS6LYW3U3R5DSBF
+[2025.01.25-06.10.12:502][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/475PGL6ZS6LYW3U3R5DSBF01986ED54AD7CED14020238C2710BDE4.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/A/AR/475PGL6ZS6LYW3U3R5DSBF.uasset'
+[2025.01.25-06.10.12:507][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/6/WR/0ORUQYFU2EA6Z2GRS91Q1N
+[2025.01.25-06.10.12:507][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/0ORUQYFU2EA6Z2GRS91Q1N8C47A59C4B1B398B99AF9193F8AF44F9.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/6/WR/0ORUQYFU2EA6Z2GRS91Q1N.uasset'
+[2025.01.25-06.10.12:512][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/6/LY/1EOGI9UWACWSE6PHC3IIFL
+[2025.01.25-06.10.12:512][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/1EOGI9UWACWSE6PHC3IIFLE232CA924F107939BD3CB6A8B26F2472.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/6/LY/1EOGI9UWACWSE6PHC3IIFL.uasset'
+[2025.01.25-06.10.12:518][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/4/VZ/MO9P972SY2QVZUG01MFGUF
+[2025.01.25-06.10.12:518][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/MO9P972SY2QVZUG01MFGUFC9AFC58640A6DB1EC0CFF989E0146E72.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/4/VZ/MO9P972SY2QVZUG01MFGUF.uasset'
+[2025.01.25-06.10.12:522][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/C/PL/HVS6L2FBTI657O778048AU
+[2025.01.25-06.10.12:522][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/HVS6L2FBTI657O778048AU4A85E38D42FBAD89B439D9A6801399C4.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/C/PL/HVS6L2FBTI657O778048AU.uasset'
+[2025.01.25-06.10.12:528][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/4/UT/M23EHJ6SLKGMS9X94PP3VV
+[2025.01.25-06.10.12:528][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/M23EHJ6SLKGMS9X94PP3VVE51BC6F549422FC8B7D05E9B49E772D5.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/4/UT/M23EHJ6SLKGMS9X94PP3VV.uasset'
+[2025.01.25-06.10.12:532][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/0/KM/DAMFQHR5W47GLCGW8XA8OU
+[2025.01.25-06.10.12:532][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/DAMFQHR5W47GLCGW8XA8OUEAB8AA934FB76FA3CC2E208C3B260AE1.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/0/KM/DAMFQHR5W47GLCGW8XA8OU.uasset'
+[2025.01.25-06.10.12:537][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/9/RB/XU0ZHT2N0DXUORSAHEWKZJ
+[2025.01.25-06.10.12:537][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/XU0ZHT2N0DXUORSAHEWKZJ111296D5465B93A0E70538A21954A281.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/9/RB/XU0ZHT2N0DXUORSAHEWKZJ.uasset'
+[2025.01.25-06.10.12:544][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/B/JX/O8NP8I0Z21W3VUNCH3EW7A
+[2025.01.25-06.10.12:544][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/O8NP8I0Z21W3VUNCH3EW7A5ADDCC7D47E835A97A9B22B9C2EFF6C2.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/B/JX/O8NP8I0Z21W3VUNCH3EW7A.uasset'
+[2025.01.25-06.10.12:549][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/7/CI/U1IX55BCV2DSUQI48K1A8J
+[2025.01.25-06.10.12:549][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/U1IX55BCV2DSUQI48K1A8JCE4C87A54EB2E1B875168FA78E9D2B9B.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/7/CI/U1IX55BCV2DSUQI48K1A8J.uasset'
+[2025.01.25-06.10.12:553][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/C/4T/VASTZR6ML4SVM42DPZ08YC
+[2025.01.25-06.10.12:553][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/VASTZR6ML4SVM42DPZ08YC1DA2753841CA45D27BE35385069B44D1.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/C/4T/VASTZR6ML4SVM42DPZ08YC.uasset'
+[2025.01.25-06.10.12:558][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/B/QM/PI93F1QUXAN3MLYVF5F0EQ
+[2025.01.25-06.10.12:558][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/PI93F1QUXAN3MLYVF5F0EQ3A39F4F948F9F7B80287F4BD4B2722D5.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/B/QM/PI93F1QUXAN3MLYVF5F0EQ.uasset'
+[2025.01.25-06.10.12:561][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/9/6W/DDWSAF67XI59YB145VLD10
+[2025.01.25-06.10.12:561][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/DDWSAF67XI59YB145VLD10078C8C6A4093ED4E8D1FECA4CAB9C372.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/9/6W/DDWSAF67XI59YB145VLD10.uasset'
+[2025.01.25-06.10.12:566][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/1/5Y/PO9AK7QD6AED6QRDDVP6AU
+[2025.01.25-06.10.12:566][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/PO9AK7QD6AED6QRDDVP6AUD80429EB4612E9FB1C865F83B3BE4266.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/1/5Y/PO9AK7QD6AED6QRDDVP6AU.uasset'
+[2025.01.25-06.10.12:572][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/F/3B/O0PM32I4RQYDIU0WFCTDZY
+[2025.01.25-06.10.12:572][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/O0PM32I4RQYDIU0WFCTDZYF46BF3CC402AE2359903E4A44BD454C4.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/F/3B/O0PM32I4RQYDIU0WFCTDZY.uasset'
+[2025.01.25-06.10.12:577][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/C/5S/GL0ZJWX8I9DV6I1FQL7PH2
+[2025.01.25-06.10.12:577][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/GL0ZJWX8I9DV6I1FQL7PH296EA6D5D406BF16161C3E8A397BC6F1F.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/C/5S/GL0ZJWX8I9DV6I1FQL7PH2.uasset'
+[2025.01.25-06.10.12:582][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/7/3R/YKOQDNYO8NGYL08RT7RNML
+[2025.01.25-06.10.12:582][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/YKOQDNYO8NGYL08RT7RNMLDEFF691F4A1651D2FF3EC281413F82FD.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/7/3R/YKOQDNYO8NGYL08RT7RNML.uasset'
+[2025.01.25-06.10.12:586][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/B/EA/A8I0JOSOB05T4INHFFEIPS
+[2025.01.25-06.10.12:586][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/A8I0JOSOB05T4INHFFEIPSB99A8F764423125C682427A89A7EAFA2.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/B/EA/A8I0JOSOB05T4INHFFEIPS.uasset'
+[2025.01.25-06.10.12:591][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/C/IO/QFESGGQPX9LW1A2X5PFQHG
+[2025.01.25-06.10.12:591][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/QFESGGQPX9LW1A2X5PFQHG28EC1ECA4AC66FBAC41C1284EA9DEDA5.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/C/IO/QFESGGQPX9LW1A2X5PFQHG.uasset'
+[2025.01.25-06.10.12:596][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/6/DS/3COXZ8V6TMP774G9LLGOKF
+[2025.01.25-06.10.12:596][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/3COXZ8V6TMP774G9LLGOKFDFE39935403CA4F62F9A44A29493F509.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/6/DS/3COXZ8V6TMP774G9LLGOKF.uasset'
+[2025.01.25-06.10.12:601][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/5/VN/XCJS8RBSLLNDKI923UBF4N
+[2025.01.25-06.10.12:601][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/XCJS8RBSLLNDKI923UBF4N219A2E0A4573285D10633E918351364A.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/5/VN/XCJS8RBSLLNDKI923UBF4N.uasset'
+[2025.01.25-06.10.12:606][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/7/GM/35K00Y4V0OOTFVMH5LV267
+[2025.01.25-06.10.12:607][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/35K00Y4V0OOTFVMH5LV267CBA136B54E2BCF94749BAA9A40FD8A84.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/7/GM/35K00Y4V0OOTFVMH5LV267.uasset'
+[2025.01.25-06.10.12:612][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/2/KT/VUHKDCDWS9G2CPJ8IT6OTR
+[2025.01.25-06.10.12:612][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/VUHKDCDWS9G2CPJ8IT6OTR1B04B2364DBA942728987981B81C6064.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/2/KT/VUHKDCDWS9G2CPJ8IT6OTR.uasset'
+[2025.01.25-06.10.12:617][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/7/RB/C3IPW9AL8XG43TK57GRR6F
+[2025.01.25-06.10.12:617][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/C3IPW9AL8XG43TK57GRR6FD837840F4A61176B51ADAD98D799C16D.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/7/RB/C3IPW9AL8XG43TK57GRR6F.uasset'
+[2025.01.25-06.10.12:622][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/9/QO/NIRRSD6BBHXTV10ZI37FEN
+[2025.01.25-06.10.12:622][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/NIRRSD6BBHXTV10ZI37FEN6799411A4FC2A0131641D68AF16213EF.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/9/QO/NIRRSD6BBHXTV10ZI37FEN.uasset'
+[2025.01.25-06.10.12:629][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/2/L1/JP39QP7SHE43RQKXMTE7JY
+[2025.01.25-06.10.12:629][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/JP39QP7SHE43RQKXMTE7JY5C365E854202239D8858D0903091B65C.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/2/L1/JP39QP7SHE43RQKXMTE7JY.uasset'
+[2025.01.25-06.10.12:636][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/6/YS/I0FRM8PGOX1NU9DOSH0084
+[2025.01.25-06.10.12:636][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/I0FRM8PGOX1NU9DOSH00849F4261A44BA08EDC34DBDFB394124C2A.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/6/YS/I0FRM8PGOX1NU9DOSH0084.uasset'
+[2025.01.25-06.10.12:640][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/2/85/0IYZJHDY2UBBKL0U20TT8K
+[2025.01.25-06.10.12:640][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/0IYZJHDY2UBBKL0U20TT8K5556E1D14DB2D6EBE12D50925A413255.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/2/85/0IYZJHDY2UBBKL0U20TT8K.uasset'
+[2025.01.25-06.10.12:645][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/6/78/GYC59UULWC95HNA9OWIZTB
+[2025.01.25-06.10.12:645][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/GYC59UULWC95HNA9OWIZTB2B5D67AE469696E29FBCF4ADC3431657.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/6/78/GYC59UULWC95HNA9OWIZTB.uasset'
+[2025.01.25-06.10.12:651][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/7/V2/BT1F0Q1Q1T4MSJNK07KJEQ
+[2025.01.25-06.10.12:651][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/BT1F0Q1Q1T4MSJNK07KJEQD93E2BEB4C86F4B6BFB1A7B0D37D71CD.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/7/V2/BT1F0Q1Q1T4MSJNK07KJEQ.uasset'
+[2025.01.25-06.10.12:658][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/1/NW/8NQV8XS1ER22QFKB96M7A9
+[2025.01.25-06.10.12:658][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/8NQV8XS1ER22QFKB96M7A94B912D4241EEB6056F027297DBC5D423.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/1/NW/8NQV8XS1ER22QFKB96M7A9.uasset'
+[2025.01.25-06.10.12:662][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/0/83/ON8BKBHGNMQ8AO9J6NVF8V
+[2025.01.25-06.10.12:662][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/ON8BKBHGNMQ8AO9J6NVF8V31082C0240BC5A2361CF109E3039C8A1.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/0/83/ON8BKBHGNMQ8AO9J6NVF8V.uasset'
+[2025.01.25-06.10.12:669][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/2/KL/I4ANPN197WY1POKHQVTD14
+[2025.01.25-06.10.12:669][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/I4ANPN197WY1POKHQVTD14D96E9C474F881DA12869BC98D88B9D4B.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/2/KL/I4ANPN197WY1POKHQVTD14.uasset'
+[2025.01.25-06.10.12:674][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/A/NT/3HP955I0O0TVT89AFIEMXM
+[2025.01.25-06.10.12:674][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/3HP955I0O0TVT89AFIEMXM993334D443734660E2920494BE1AA1E7.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/A/NT/3HP955I0O0TVT89AFIEMXM.uasset'
+[2025.01.25-06.10.12:678][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/8/TZ/57HSJPPR4NB87JAG0QIYST
+[2025.01.25-06.10.12:678][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/57HSJPPR4NB87JAG0QIYSTF160D98B41C18884A82E26B1C39BB187.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/8/TZ/57HSJPPR4NB87JAG0QIYST.uasset'
+[2025.01.25-06.10.12:682][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/B/4X/B98UK6V9SOOUKL5FP8H1MU
+[2025.01.25-06.10.12:682][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/B98UK6V9SOOUKL5FP8H1MUD24A1F9E4CA43FA50CF9399095EC2876.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/B/4X/B98UK6V9SOOUKL5FP8H1MU.uasset'
+[2025.01.25-06.10.12:686][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/E/CR/3DH7ADIKQPCR5U7FT62ZUY
+[2025.01.25-06.10.12:687][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/3DH7ADIKQPCR5U7FT62ZUYB0D88D4D4BC32014E9448CBBBB40057D.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/E/CR/3DH7ADIKQPCR5U7FT62ZUY.uasset'
+[2025.01.25-06.10.12:691][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Davidtest/5/X7/XVKFNLHOLPJ8BZ95ZHRPBT
+[2025.01.25-06.10.12:691][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/XVKFNLHOLPJ8BZ95ZHRPBT9AD1452540E4E3C9D37A6C87EC03D719.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/Davidtest/5/X7/XVKFNLHOLPJ8BZ95ZHRPBT.uasset'
+[2025.01.25-06.10.12:693][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Davidtest/7/ZR/RT9UT9OR6OSADLNUXFPZR1] ([1] browsable assets)...
+[2025.01.25-06.10.12:693][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Davidtest/7/ZR/RT9UT9OR6OSADLNUXFPZR1]
+[2025.01.25-06.10.12:695][753]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Davidtest/7/ZR/RT9UT9OR6OSADLNUXFPZR1
+[2025.01.25-06.10.12:695][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/RT9UT9OR6OSADLNUXFPZR13FF04FDD4C468488F8C6B59F3D404F41.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/Davidtest/7/ZR/RT9UT9OR6OSADLNUXFPZR1.uasset'
+[2025.01.25-06.10.12:697][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Davidtest/5/VD/FMY86DR2IXO93XCZS138CC] ([1] browsable assets)...
+[2025.01.25-06.10.12:697][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Davidtest/5/VD/FMY86DR2IXO93XCZS138CC]
+[2025.01.25-06.10.12:698][753]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Davidtest/5/VD/FMY86DR2IXO93XCZS138CC
+[2025.01.25-06.10.12:698][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/FMY86DR2IXO93XCZS138CC8E358EE44C7237F4B6CBCBB2F3D417AD.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/Davidtest/5/VD/FMY86DR2IXO93XCZS138CC.uasset'
+[2025.01.25-06.10.12:700][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Davidtest/D/TA/K8EY40N7ISCNSZZQXLC7QQ] ([1] browsable assets)...
+[2025.01.25-06.10.12:700][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Davidtest/D/TA/K8EY40N7ISCNSZZQXLC7QQ]
+[2025.01.25-06.10.12:702][753]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Davidtest/D/TA/K8EY40N7ISCNSZZQXLC7QQ
+[2025.01.25-06.10.12:702][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/K8EY40N7ISCNSZZQXLC7QQ79D192DA42E411205CC6E4858B2CB9E5.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/Davidtest/D/TA/K8EY40N7ISCNSZZQXLC7QQ.uasset'
+[2025.01.25-06.10.12:704][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Davidtest/A/D8/ENLIIIX968UXTHN6ZLZMIF] ([1] browsable assets)...
+[2025.01.25-06.10.12:704][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Davidtest/A/D8/ENLIIIX968UXTHN6ZLZMIF]
+[2025.01.25-06.10.12:705][753]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Davidtest/A/D8/ENLIIIX968UXTHN6ZLZMIF
+[2025.01.25-06.10.12:705][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/ENLIIIX968UXTHN6ZLZMIFFE61729A4FB2B7DB62A917B7B90334CD.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/Davidtest/A/D8/ENLIIIX968UXTHN6ZLZMIF.uasset'
+[2025.01.25-06.10.12:707][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Davidtest/A/82/F16B8NBRQJ42QB7H5KW5M6] ([1] browsable assets)...
+[2025.01.25-06.10.12:707][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Davidtest/A/82/F16B8NBRQJ42QB7H5KW5M6]
+[2025.01.25-06.10.12:710][753]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Davidtest/A/82/F16B8NBRQJ42QB7H5KW5M6
+[2025.01.25-06.10.12:710][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/F16B8NBRQJ42QB7H5KW5M625043BA8477FB3D8489589A6AE7F59C6.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/Davidtest/A/82/F16B8NBRQJ42QB7H5KW5M6.uasset'
+[2025.01.25-06.10.12:712][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Davidtest/B/KN/E8VB2I4MUQNW98F86VSPQ8] ([1] browsable assets)...
+[2025.01.25-06.10.12:712][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Davidtest/B/KN/E8VB2I4MUQNW98F86VSPQ8]
+[2025.01.25-06.10.12:713][753]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Davidtest/B/KN/E8VB2I4MUQNW98F86VSPQ8
+[2025.01.25-06.10.12:713][753]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/E8VB2I4MUQNW98F86VSPQ88F9BDF774DCC411A1842F58E9054C9D6.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/Davidtest/B/KN/E8VB2I4MUQNW98F86VSPQ8.uasset'
+[2025.01.25-06.10.12:716][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 276.212 ms
+[2025.01.25-06.10.12:721][753]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Davidtest/5/ER/RF714U9Y37D0CHS1E8C3FW
+/Game/__ExternalActors__/Davidtest/3/AT/GM6LLSEMOL11R19G4GE4WD
+/Game/__ExternalActors__/Davidtest/A/AR/475PGL6ZS6LYW3U3R5DSBF
+/Game/__ExternalActors__/Davidtest/6/WR/0ORUQYFU2EA6Z2GRS91Q1N
+/Game/__ExternalActors__/Davidtest/6/LY/1EOGI9UWACWSE6PHC3IIFL
+/Game/__ExternalActors__/Davidtest/4/VZ/MO9P972SY2QVZUG01MFGUF
+/Game/__ExternalActors__/Davidtest/C/PL/HVS6L2FBTI657O778048AU
+/Game/__ExternalActors__/Davidtest/4/UT/M23EHJ6SLKGMS9X94PP3VV
+/Game/__ExternalActors__/Davidtest/0/KM/DAMFQHR5W47GLCGW8XA8OU
+/Game/__ExternalActors__/Davidtest/9/RB/XU0ZHT2N0DXUORSAHEWKZJ
+/Game/__ExternalActors__/Davidtest/B/JX/O8NP8I0Z21W3VUNCH3EW7A
+/Game/__ExternalActors__/Davidtest/7/CI/U1IX55BCV2DSUQI48K1A8J
+/Game/__ExternalActors__/Davidtest/C/4T/VASTZR6ML4SVM42DPZ08YC
+/Game/__ExternalActors__/Davidtest/B/QM/PI93F1QUXAN3MLYVF5F0EQ
+/Game/__ExternalActors__/Davidtest/9/6W/DDWSAF67XI59YB145VLD10
+/Game/__ExternalActors__/Davidtest/1/5Y/PO9AK7QD6AED6QRDDVP6AU
+/Game/__ExternalActors__/Davidtest/F/3B/O0PM32I4RQYDIU0WFCTDZY
+/Game/__ExternalActors__/Davidtest/C/5S/GL0ZJWX8I9DV6I1FQL7PH2
+/Game/__ExternalActors__/Davidtest/7/3R/YKOQDNYO8NGYL08RT7RNML
+/Game/__ExternalActors__/Davidtest/B/EA/A8I0JOSOB05T4INHFFEIPS
+/Game/__ExternalActors__/Davidtest/C/IO/QFESGGQPX9LW1A2X5PFQHG
+/Game/__ExternalActors__/Davidtest/6/DS/3COXZ8V6TMP774G9LLGOKF
+/Game/__ExternalActors__/Davidtest/5/VN/XCJS8RBSLLNDKI923UBF4N
+/Game/__ExternalActors__/Davidtest/7/GM/35K00Y4V0OOTFVMH5LV267
+/Game/__ExternalActors__/Davidtest/2/KT/VUHKDCDWS9G2CPJ8IT6OTR
+/Game/__ExternalActors__/Davidtest/7/RB/C3IPW9AL8XG43TK57GRR6F
+/Game/__ExternalActors__/Davidtest/9/QO/NIRRSD6BBHXTV10ZI37FEN
+/Game/__ExternalActors__/Davidtest/2/L1/JP39QP7SHE43RQKXMTE7JY
+/Game/__ExternalActors__/Davidtest/6/YS/I0FRM8PGOX1NU9DOSH0084
+/Game/__ExternalActors__/Davidtest/2/85/0IYZJHDY2UBBKL0U20TT8K
+/Game/__ExternalActors__/Davidtest/6/78/GYC59UULWC95HNA9OWIZTB
+/Game/__ExternalActors__/Davidtest/7/V2/BT1F0Q1Q1T4MSJNK07KJEQ
+/Game/__ExternalActors__/Davidtest/1/NW/8NQV8XS1ER22QFKB96M7A9
+/Game/__ExternalActors__/Davidtest/0/83/ON8BKBHGNMQ8AO9J6NVF8V
+/Game/__ExternalActors__/Davidtest/2/KL/I4ANPN197WY1POKHQVTD14
+/Game/__ExternalActors__/Davidtest/A/NT/3HP955I0O0TVT89AFIEMXM
+/Game/__ExternalActors__/Davidtest/8/TZ/57HSJPPR4NB87JAG0QIYST
+/Game/__ExternalActors__/Davidtest/B/4X/B98UK6V9SOOUKL5FP8H1MU
+/Game/__ExternalActors__/Davidtest/E/CR/3DH7ADIKQPCR5U7FT62ZUY
+/Game/__ExternalActors__/Davidtest/5/X7/XVKFNLHOLPJ8BZ95ZHRPBT
+/Game/__ExternalObjects__/Davidtest/7/ZR/RT9UT9OR6OSADLNUXFPZR1
+/Game/__ExternalObjects__/Davidtest/5/VD/FMY86DR2IXO93XCZS138CC
+/Game/__ExternalObjects__/Davidtest/D/TA/K8EY40N7ISCNSZZQXLC7QQ
+/Game/__ExternalObjects__/Davidtest/A/D8/ENLIIIX968UXTHN6ZLZMIF
+/Game/__ExternalObjects__/Davidtest/A/82/F16B8NBRQJ42QB7H5KW5M6
+/Game/__ExternalObjects__/Davidtest/B/KN/E8VB2I4MUQNW98F86VSPQ8
+[2025.01.25-06.10.12:758][753]LogFileHelpers: Saving map 'Davidtest' took 1.047
+[2025.01.25-06.10.12:758][753]Cmd: MAP LOAD FILE="../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/Davidtest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-06.10.12:942][753]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-06.10.12:942][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-06.10.12:942][753]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.01.25-06.10.13:001][753]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-06.10.13:016][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.01.25-06.10.13:033][753]LogWorld: UWorld::CleanupWorld for Davidtest, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-06.10.13:034][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-06.10.13:034][753]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Davidtest.Davidtest
+[2025.01.25-06.10.13:050][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.01.25-06.10.13:086][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.01.25-06.10.13:087][753]LogStreaming: Display: FlushAsyncLoading(383): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-06.10.13:096][753]LogAudio: Display: Audio Device (ID: 1) registered with world 'Davidtest'.
+[2025.01.25-06.10.13:097][753]LogChaosDD: Creating Chaos Debug Draw Scene for world Davidtest
+[2025.01.25-06.10.13:100][753]LogWorldPartition: ULevel::OnLevelLoaded(Davidtest)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.25-06.10.13:100][753]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.25-06.10.13:100][753]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Davidtest.Davidtest, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.25-06.10.13:136][753]LogWorldPartition: Display: WorldPartition initialize took 36.369 ms (total: 345.900 ms)
+[2025.01.25-06.10.13:165][753]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-06.10.13:185][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.01.25-06.10.13:230][753]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-06.10.13:231][753]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.906ms to complete.
+[2025.01.25-06.10.13:420][753]LogContentValidation: Display: Starting to validate 47 assets
+[2025.01.25-06.10.13:421][753]LogContentValidation: Enabled validators:
+[2025.01.25-06.10.13:454][753]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-06.10.13:454][753]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-06.10.13:454][753]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-06.10.13:454][753]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-06.10.13:454][753]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-06.10.13:454][753]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-06.10.13:454][753]AssetCheck: /Game/Davidtest Validating asset
+[2025.01.25-06.10.20:177][103]LogMetaData: Removing '/Game/David/Davidtest.Davidtest_C' ref from Metadata '/Game/Davidtest.PackageMetaData'
+[2025.01.25-06.10.20:177][103]LogMetaData: Removing '/Game/David/Davidtest.SKEL_Davidtest_C' ref from Metadata '/Game/Davidtest.PackageMetaData'
+[2025.01.25-06.10.20:308][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-06.10.20:366][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.01.25-06.10.20:386][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.01.25-06.10.20:401][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.01.25-06.10.20:414][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/David/Davidtest" FILE="../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/David/Davidtest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-06.10.20:454][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.01.25-06.10.20:463][103]LogSavePackage: Moving output files for package: /Game/David/Davidtest
+[2025.01.25-06.10.20:463][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/DavidtestAB155E39411FBF29027B159971847AC2.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/David/Davidtest.umap'
+[2025.01.25-06.10.20:486][103]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/David/Davidtest/5/1T/VTTESZIT0T4IBA18PN3I44
+/Game/__ExternalObjects__/David/Davidtest/2/75/GL19CGQ9G2Z4LAG2JDS9X0
+/Game/__ExternalObjects__/David/Davidtest/5/AD/36OMYH8YC0PMJGN5JUY3ZO
+/Game/__ExternalObjects__/David/Davidtest/7/E0/ZXNTMBQ60MBQY0FWK3KCOV
+/Game/__ExternalObjects__/David/Davidtest/0/SL/MIFH2ADVKUONMNTUPLYTPK
+/Game/__ExternalObjects__/David/Davidtest/8/TE/S30WWQL0Z2GR44DHHAWC8X
+/Game/__ExternalObjects__/David/Davidtest/6/EL/IMQSCARIURKAB2GGQA5BE9
+/Game/__ExternalActors__/David/Davidtest/1/JM/Q8MXLCQQRD1TLPZUFZEH0D
+/Game/__ExternalActors__/David/Davidtest/E/6B/I74C0IU33JE10EWP3SU5YJ
+/Game/__ExternalActors__/David/Davidtest/B/K1/CAZCD3WN9Y59HPT0BFUP5A
+/Game/__ExternalActors__/David/Davidtest/6/PF/KQWBBJEU4A9M5PXCIRU773
+/Game/__ExternalActors__/David/Davidtest/0/VL/B9GJ40FH323AJZLDX5DR4S
+/Game/__ExternalActors__/David/Davidtest/D/SJ/J1ZM5N595C8WIO25YKPSVZ
+/Game/__ExternalActors__/David/Davidtest/3/RF/M880ZTD15Z2VIBQTECMBGA
+/Game/__ExternalActors__/David/Davidtest/6/2N/JGS2023YRAPRBO2E3T1LB2
+/Game/__ExternalActors__/David/Davidtest/4/YA/M46O28R22YYDQWLASHESL0
+/Game/__ExternalActors__/David/Davidtest/3/VZ/H4KKEM9BR9APE6JJ2GFR8X
+/Game/__ExternalActors__/David/Davidtest/1/15/RZKFFMQFL060I92LLX74JJ
+/Game/__ExternalActors__/David/Davidtest/E/FO/E7ET3CGJ1PM2KNMH6TCOYJ
+/Game/__ExternalActors__/David/Davidtest/0/O2/JLPHLZLCYVLEJD52I3SEOD
+/Game/__ExternalActors__/David/Davidtest/C/J9/DAWD6N226U4QF0KN1EO9UG
+/Game/__ExternalActors__/David/Davidtest/B/28/07JD8GKE6FSQHH7DKWU26Y
+/Game/__ExternalActors__/David/Davidtest/9/8Q/NO66JW9DTOQ3KRF6KW1FFI
+/Game/__ExternalActors__/David/Davidtest/1/B8/OY9K5LQEP41YJY02EQW7UJ
+/Game/__ExternalActors__/David/Davidtest/C/BE/0UMH0QMD90APSCYSSRYM0U
+/Game/__ExternalActors__/David/Davidtest/0/PH/6ENIBXAVEJYA8NEGBNO60W
+/Game/__ExternalActors__/David/Davidtest/8/1B/SLFTKXGKNQNKMKTWSUL7WI
+/Game/__ExternalActors__/David/Davidtest/A/7J/7L6PSRPH0C6UF4MYCDSR6Q
+/Game/__ExternalActors__/David/Davidtest/4/YI/8WFN0VDFGI9YFADPX4A3KX
+/Game/__ExternalActors__/David/Davidtest/3/AS/C6ACVQPDCDLCH3CNES7PF3
+/Game/__ExternalActors__/David/Davidtest/0/08/IMH0AWXBXG2RWY1REW51XL
+/Game/__ExternalActors__/David/Davidtest/D/UR/P9L60J9ELSV3RZ5CGR39PI
+/Game/__ExternalActors__/David/Davidtest/4/H2/5N8FXNQ2N0PBL9LSDTRFMA
+/Game/__ExternalActors__/David/Davidtest/E/AO/1MZ1GUPF7MDE3ONH02DXQH
+/Game/__ExternalActors__/David/Davidtest/D/TM/WDO469QPH3P6W0VL50ERIR
+/Game/__ExternalActors__/David/Davidtest/6/VA/MI1DPIP89CKAH4MNSDELJK
+/Game/__ExternalActors__/David/Davidtest/D/C4/JADFGY9PP5I0X7KWWGEB79
+/Game/__ExternalActors__/David/Davidtest/7/34/9H05MCFM6H8A77SD2S3ZTZ
+/Game/__ExternalActors__/David/Davidtest/2/SR/LS70QJ19U97W1H169IOBH5
+/Game/__ExternalActors__/David/Davidtest/C/1Z/1V2X46H942LQFX4RGE3CQC
+/Game/__ExternalActors__/David/Davidtest/0/VT/XMOHEVCCAVQU743OEVUHAN
+/Game/__ExternalActors__/David/Davidtest/0/6K/PA8105CP9FIL09Y3SKE0M6
+/Game/__ExternalActors__/David/Davidtest/B/8X/F2U9SF0IBAR2CCL0ZMJUKY
+/Game/__ExternalActors__/David/Davidtest/8/QB/5UFUOFNC0JX4X04HOPX78R
+/Game/__ExternalActors__/David/Davidtest/3/PY/QFGGQCTILDNV67KWDYKEP9
+/Game/__ExternalActors__/David/Davidtest/1/7L/GOP9EYDMSFNXS2A1E42VTQ
+[2025.01.25-06.10.20:486][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-06.10.20:488][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/5/1T/VTTESZIT0T4IBA18PN3I44
+[2025.01.25-06.10.20:489][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/VTTESZIT0T4IBA18PN3I44498D4D4B46FBA7AEB134A0B69B8CDF9A.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/5/1T/VTTESZIT0T4IBA18PN3I44.uasset'
+[2025.01.25-06.10.20:490][103]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/David/Davidtest/2/75/GL19CGQ9G2Z4LAG2JDS9X0] ([1] browsable assets)...
+[2025.01.25-06.10.20:490][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/David/Davidtest/2/75/GL19CGQ9G2Z4LAG2JDS9X0]
+[2025.01.25-06.10.20:493][103]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/David/Davidtest/2/75/GL19CGQ9G2Z4LAG2JDS9X0
+[2025.01.25-06.10.20:493][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/GL19CGQ9G2Z4LAG2JDS9X0A4FB2070474A7735C6D1128FD1D3269C.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/David/Davidtest/2/75/GL19CGQ9G2Z4LAG2JDS9X0.uasset'
+[2025.01.25-06.10.20:496][103]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/David/Davidtest/5/AD/36OMYH8YC0PMJGN5JUY3ZO] ([1] browsable assets)...
+[2025.01.25-06.10.20:496][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/David/Davidtest/5/AD/36OMYH8YC0PMJGN5JUY3ZO]
+[2025.01.25-06.10.20:498][103]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/David/Davidtest/5/AD/36OMYH8YC0PMJGN5JUY3ZO
+[2025.01.25-06.10.20:498][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/36OMYH8YC0PMJGN5JUY3ZO4E6CEC584D05A26F7CC340B05035C068.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/David/Davidtest/5/AD/36OMYH8YC0PMJGN5JUY3ZO.uasset'
+[2025.01.25-06.10.20:501][103]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/David/Davidtest/7/E0/ZXNTMBQ60MBQY0FWK3KCOV] ([1] browsable assets)...
+[2025.01.25-06.10.20:501][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/David/Davidtest/7/E0/ZXNTMBQ60MBQY0FWK3KCOV]
+[2025.01.25-06.10.20:502][103]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/David/Davidtest/7/E0/ZXNTMBQ60MBQY0FWK3KCOV
+[2025.01.25-06.10.20:502][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/ZXNTMBQ60MBQY0FWK3KCOVB22FBB954E457D3A3F8C9BA8F3DE776F.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/David/Davidtest/7/E0/ZXNTMBQ60MBQY0FWK3KCOV.uasset'
+[2025.01.25-06.10.20:504][103]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/David/Davidtest/0/SL/MIFH2ADVKUONMNTUPLYTPK] ([1] browsable assets)...
+[2025.01.25-06.10.20:504][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/David/Davidtest/0/SL/MIFH2ADVKUONMNTUPLYTPK]
+[2025.01.25-06.10.20:506][103]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/David/Davidtest/0/SL/MIFH2ADVKUONMNTUPLYTPK
+[2025.01.25-06.10.20:506][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/MIFH2ADVKUONMNTUPLYTPKCE0BC0DC428B8632E57B28AFD629484D.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/David/Davidtest/0/SL/MIFH2ADVKUONMNTUPLYTPK.uasset'
+[2025.01.25-06.10.20:507][103]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/David/Davidtest/8/TE/S30WWQL0Z2GR44DHHAWC8X] ([1] browsable assets)...
+[2025.01.25-06.10.20:507][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/David/Davidtest/8/TE/S30WWQL0Z2GR44DHHAWC8X]
+[2025.01.25-06.10.20:510][103]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/David/Davidtest/8/TE/S30WWQL0Z2GR44DHHAWC8X
+[2025.01.25-06.10.20:510][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/S30WWQL0Z2GR44DHHAWC8X8DAE69FE4B6E7BE892CE20A0BE46D2D7.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/David/Davidtest/8/TE/S30WWQL0Z2GR44DHHAWC8X.uasset'
+[2025.01.25-06.10.20:513][103]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/David/Davidtest/6/EL/IMQSCARIURKAB2GGQA5BE9] ([1] browsable assets)...
+[2025.01.25-06.10.20:513][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/David/Davidtest/6/EL/IMQSCARIURKAB2GGQA5BE9]
+[2025.01.25-06.10.20:516][103]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/David/Davidtest/6/EL/IMQSCARIURKAB2GGQA5BE9
+[2025.01.25-06.10.20:516][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/IMQSCARIURKAB2GGQA5BE98369309B4CFC5EE969D31A9120C23DDF.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalObjects__/David/Davidtest/6/EL/IMQSCARIURKAB2GGQA5BE9.uasset'
+[2025.01.25-06.10.20:519][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/1/JM/Q8MXLCQQRD1TLPZUFZEH0D
+[2025.01.25-06.10.20:520][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/Q8MXLCQQRD1TLPZUFZEH0DE5DEC8834A3919174DDBCD91E976F5E1.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/1/JM/Q8MXLCQQRD1TLPZUFZEH0D.uasset'
+[2025.01.25-06.10.20:524][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/E/6B/I74C0IU33JE10EWP3SU5YJ
+[2025.01.25-06.10.20:524][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/I74C0IU33JE10EWP3SU5YJ0EBD0AEC4BAB1E543F8B318BC1A49E7A.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/E/6B/I74C0IU33JE10EWP3SU5YJ.uasset'
+[2025.01.25-06.10.20:532][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/B/K1/CAZCD3WN9Y59HPT0BFUP5A
+[2025.01.25-06.10.20:532][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/CAZCD3WN9Y59HPT0BFUP5A278D46834AC611BC84091C91B47B1047.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/B/K1/CAZCD3WN9Y59HPT0BFUP5A.uasset'
+[2025.01.25-06.10.20:537][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/6/PF/KQWBBJEU4A9M5PXCIRU773
+[2025.01.25-06.10.20:538][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/KQWBBJEU4A9M5PXCIRU7738967D1B24276088F962F948025996F22.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/6/PF/KQWBBJEU4A9M5PXCIRU773.uasset'
+[2025.01.25-06.10.20:542][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/0/VL/B9GJ40FH323AJZLDX5DR4S
+[2025.01.25-06.10.20:542][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/B9GJ40FH323AJZLDX5DR4S9740949A4B79AE06A3199CA7B79F3259.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/0/VL/B9GJ40FH323AJZLDX5DR4S.uasset'
+[2025.01.25-06.10.20:546][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/D/SJ/J1ZM5N595C8WIO25YKPSVZ
+[2025.01.25-06.10.20:546][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/J1ZM5N595C8WIO25YKPSVZ6910296E41AF41BF4675989358CEF91B.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/D/SJ/J1ZM5N595C8WIO25YKPSVZ.uasset'
+[2025.01.25-06.10.20:551][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/3/RF/M880ZTD15Z2VIBQTECMBGA
+[2025.01.25-06.10.20:551][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/M880ZTD15Z2VIBQTECMBGA97B2CDE946338A654356769DA3C3D64B.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/3/RF/M880ZTD15Z2VIBQTECMBGA.uasset'
+[2025.01.25-06.10.20:558][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/6/2N/JGS2023YRAPRBO2E3T1LB2
+[2025.01.25-06.10.20:558][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/JGS2023YRAPRBO2E3T1LB279D2C05342A29FD18223FE9828B1B94D.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/6/2N/JGS2023YRAPRBO2E3T1LB2.uasset'
+[2025.01.25-06.10.20:562][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/4/YA/M46O28R22YYDQWLASHESL0
+[2025.01.25-06.10.20:562][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/M46O28R22YYDQWLASHESL0A1D9A0494E8337E0C25169BB684FD067.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/4/YA/M46O28R22YYDQWLASHESL0.uasset'
+[2025.01.25-06.10.20:567][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/3/VZ/H4KKEM9BR9APE6JJ2GFR8X
+[2025.01.25-06.10.20:567][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/H4KKEM9BR9APE6JJ2GFR8XC5F0A9EA4B13DE2BCD4986BC579E4F53.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/3/VZ/H4KKEM9BR9APE6JJ2GFR8X.uasset'
+[2025.01.25-06.10.20:571][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/1/15/RZKFFMQFL060I92LLX74JJ
+[2025.01.25-06.10.20:571][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/RZKFFMQFL060I92LLX74JJ961A1EB54E45BD718943C2A78EEA0B62.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/1/15/RZKFFMQFL060I92LLX74JJ.uasset'
+[2025.01.25-06.10.20:575][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/E/FO/E7ET3CGJ1PM2KNMH6TCOYJ
+[2025.01.25-06.10.20:575][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/E7ET3CGJ1PM2KNMH6TCOYJA1CA66BC4CED5FE677D760BB6188CBEB.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/E/FO/E7ET3CGJ1PM2KNMH6TCOYJ.uasset'
+[2025.01.25-06.10.20:578][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/0/O2/JLPHLZLCYVLEJD52I3SEOD
+[2025.01.25-06.10.20:578][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/JLPHLZLCYVLEJD52I3SEOD29A5572E461F1D8E2C4E43BD11295AAE.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/0/O2/JLPHLZLCYVLEJD52I3SEOD.uasset'
+[2025.01.25-06.10.20:583][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/C/J9/DAWD6N226U4QF0KN1EO9UG
+[2025.01.25-06.10.20:583][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/DAWD6N226U4QF0KN1EO9UG3D4BBF964E71E2C1C591A3BEE41749BC.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/C/J9/DAWD6N226U4QF0KN1EO9UG.uasset'
+[2025.01.25-06.10.20:588][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/B/28/07JD8GKE6FSQHH7DKWU26Y
+[2025.01.25-06.10.20:588][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/07JD8GKE6FSQHH7DKWU26Y5499443B4E1FE3F72D294482F78D82A8.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/B/28/07JD8GKE6FSQHH7DKWU26Y.uasset'
+[2025.01.25-06.10.20:593][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/9/8Q/NO66JW9DTOQ3KRF6KW1FFI
+[2025.01.25-06.10.20:593][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/NO66JW9DTOQ3KRF6KW1FFIAA4A2C6B40F3207AC77FED8C5AA15BB9.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/9/8Q/NO66JW9DTOQ3KRF6KW1FFI.uasset'
+[2025.01.25-06.10.20:598][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/1/B8/OY9K5LQEP41YJY02EQW7UJ
+[2025.01.25-06.10.20:598][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/OY9K5LQEP41YJY02EQW7UJ8BE6D032433424A02C8070999F2C495A.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/1/B8/OY9K5LQEP41YJY02EQW7UJ.uasset'
+[2025.01.25-06.10.20:603][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/C/BE/0UMH0QMD90APSCYSSRYM0U
+[2025.01.25-06.10.20:603][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/0UMH0QMD90APSCYSSRYM0UCA0B8B7D48ED266A663A1CBEAC71E5D7.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/C/BE/0UMH0QMD90APSCYSSRYM0U.uasset'
+[2025.01.25-06.10.20:607][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/0/PH/6ENIBXAVEJYA8NEGBNO60W
+[2025.01.25-06.10.20:607][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/6ENIBXAVEJYA8NEGBNO60WEACDA59640DCB8DA59F47980B4DA001B.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/0/PH/6ENIBXAVEJYA8NEGBNO60W.uasset'
+[2025.01.25-06.10.20:611][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/8/1B/SLFTKXGKNQNKMKTWSUL7WI
+[2025.01.25-06.10.20:612][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/SLFTKXGKNQNKMKTWSUL7WIA546CE324BB8C83C202B4A94FC0C7B17.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/8/1B/SLFTKXGKNQNKMKTWSUL7WI.uasset'
+[2025.01.25-06.10.20:616][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/A/7J/7L6PSRPH0C6UF4MYCDSR6Q
+[2025.01.25-06.10.20:617][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/7L6PSRPH0C6UF4MYCDSR6Q64B1972846F069C98C241884B6503E3C.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/A/7J/7L6PSRPH0C6UF4MYCDSR6Q.uasset'
+[2025.01.25-06.10.20:620][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/4/YI/8WFN0VDFGI9YFADPX4A3KX
+[2025.01.25-06.10.20:620][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/8WFN0VDFGI9YFADPX4A3KX193E1452410F697F5E245AA2C03EEFB3.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/4/YI/8WFN0VDFGI9YFADPX4A3KX.uasset'
+[2025.01.25-06.10.20:624][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/3/AS/C6ACVQPDCDLCH3CNES7PF3
+[2025.01.25-06.10.20:624][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/C6ACVQPDCDLCH3CNES7PF315615AEE496D98FA39981EA942921677.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/3/AS/C6ACVQPDCDLCH3CNES7PF3.uasset'
+[2025.01.25-06.10.20:629][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/0/08/IMH0AWXBXG2RWY1REW51XL
+[2025.01.25-06.10.20:629][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/IMH0AWXBXG2RWY1REW51XL643333204DE249C5E9C510AE7E39794E.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/0/08/IMH0AWXBXG2RWY1REW51XL.uasset'
+[2025.01.25-06.10.20:634][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/D/UR/P9L60J9ELSV3RZ5CGR39PI
+[2025.01.25-06.10.20:634][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/P9L60J9ELSV3RZ5CGR39PI6AAFD2C548EB0114637DE481B3E046DB.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/D/UR/P9L60J9ELSV3RZ5CGR39PI.uasset'
+[2025.01.25-06.10.20:638][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/4/H2/5N8FXNQ2N0PBL9LSDTRFMA
+[2025.01.25-06.10.20:638][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/5N8FXNQ2N0PBL9LSDTRFMAD79B2ED44A97B22E0063F0BCAF92BE21.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/4/H2/5N8FXNQ2N0PBL9LSDTRFMA.uasset'
+[2025.01.25-06.10.20:641][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/E/AO/1MZ1GUPF7MDE3ONH02DXQH
+[2025.01.25-06.10.20:641][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/1MZ1GUPF7MDE3ONH02DXQH387529F241169C033901498082B73D4D.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/E/AO/1MZ1GUPF7MDE3ONH02DXQH.uasset'
+[2025.01.25-06.10.20:647][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/D/TM/WDO469QPH3P6W0VL50ERIR
+[2025.01.25-06.10.20:647][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/WDO469QPH3P6W0VL50ERIR879C71AA46C090FDCB5305A5462A21DE.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/D/TM/WDO469QPH3P6W0VL50ERIR.uasset'
+[2025.01.25-06.10.20:653][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/6/VA/MI1DPIP89CKAH4MNSDELJK
+[2025.01.25-06.10.20:653][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/MI1DPIP89CKAH4MNSDELJKC81AA151434D40B87B127FAC96024F74.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/6/VA/MI1DPIP89CKAH4MNSDELJK.uasset'
+[2025.01.25-06.10.20:657][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/D/C4/JADFGY9PP5I0X7KWWGEB79
+[2025.01.25-06.10.20:657][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/JADFGY9PP5I0X7KWWGEB7958A22DBD40B939A6D824C98246553E04.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/D/C4/JADFGY9PP5I0X7KWWGEB79.uasset'
+[2025.01.25-06.10.20:662][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/7/34/9H05MCFM6H8A77SD2S3ZTZ
+[2025.01.25-06.10.20:662][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/9H05MCFM6H8A77SD2S3ZTZ02C301A6492677431B8D5987C87DE7A3.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/7/34/9H05MCFM6H8A77SD2S3ZTZ.uasset'
+[2025.01.25-06.10.20:667][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/2/SR/LS70QJ19U97W1H169IOBH5
+[2025.01.25-06.10.20:667][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/LS70QJ19U97W1H169IOBH5B032D9EA405D072DB0B839952ACBEC42.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/2/SR/LS70QJ19U97W1H169IOBH5.uasset'
+[2025.01.25-06.10.20:671][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/C/1Z/1V2X46H942LQFX4RGE3CQC
+[2025.01.25-06.10.20:671][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/1V2X46H942LQFX4RGE3CQC2A1181664ED00B5CB8F472AD7A732BCE.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/C/1Z/1V2X46H942LQFX4RGE3CQC.uasset'
+[2025.01.25-06.10.20:676][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/0/VT/XMOHEVCCAVQU743OEVUHAN
+[2025.01.25-06.10.20:676][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/XMOHEVCCAVQU743OEVUHAN15E5C8BD4268AF95B2BE82873EDA13DB.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/0/VT/XMOHEVCCAVQU743OEVUHAN.uasset'
+[2025.01.25-06.10.20:680][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/0/6K/PA8105CP9FIL09Y3SKE0M6
+[2025.01.25-06.10.20:680][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/PA8105CP9FIL09Y3SKE0M68B087EF641373D71B11D69A78198FA4E.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/0/6K/PA8105CP9FIL09Y3SKE0M6.uasset'
+[2025.01.25-06.10.20:685][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/B/8X/F2U9SF0IBAR2CCL0ZMJUKY
+[2025.01.25-06.10.20:685][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/F2U9SF0IBAR2CCL0ZMJUKY43F175E8440DB8E0FDDFB1A49A570F2E.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/B/8X/F2U9SF0IBAR2CCL0ZMJUKY.uasset'
+[2025.01.25-06.10.20:689][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/8/QB/5UFUOFNC0JX4X04HOPX78R
+[2025.01.25-06.10.20:689][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/5UFUOFNC0JX4X04HOPX78RAE5656414C353D723EA27AAEF6875155.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/8/QB/5UFUOFNC0JX4X04HOPX78R.uasset'
+[2025.01.25-06.10.20:693][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/3/PY/QFGGQCTILDNV67KWDYKEP9
+[2025.01.25-06.10.20:693][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/QFGGQCTILDNV67KWDYKEP9F7429AC34C98A74280D5BD9139EBDD99.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/3/PY/QFGGQCTILDNV67KWDYKEP9.uasset'
+[2025.01.25-06.10.20:699][103]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/David/Davidtest/1/7L/GOP9EYDMSFNXS2A1E42VTQ
+[2025.01.25-06.10.20:699][103]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/GOP9EYDMSFNXS2A1E42VTQAE5DB9024DC99510E7BE29BB8CE878E6.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/__ExternalActors__/David/Davidtest/1/7L/GOP9EYDMSFNXS2A1E42VTQ.uasset'
+[2025.01.25-06.10.20:703][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 217.106 ms (total: 493.319 ms)
+[2025.01.25-06.10.20:707][103]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/David/Davidtest/5/1T/VTTESZIT0T4IBA18PN3I44
+/Game/__ExternalObjects__/David/Davidtest/2/75/GL19CGQ9G2Z4LAG2JDS9X0
+/Game/__ExternalObjects__/David/Davidtest/5/AD/36OMYH8YC0PMJGN5JUY3ZO
+/Game/__ExternalObjects__/David/Davidtest/7/E0/ZXNTMBQ60MBQY0FWK3KCOV
+/Game/__ExternalObjects__/David/Davidtest/0/SL/MIFH2ADVKUONMNTUPLYTPK
+/Game/__ExternalObjects__/David/Davidtest/8/TE/S30WWQL0Z2GR44DHHAWC8X
+/Game/__ExternalObjects__/David/Davidtest/6/EL/IMQSCARIURKAB2GGQA5BE9
+/Game/__ExternalActors__/David/Davidtest/1/JM/Q8MXLCQQRD1TLPZUFZEH0D
+/Game/__ExternalActors__/David/Davidtest/E/6B/I74C0IU33JE10EWP3SU5YJ
+/Game/__ExternalActors__/David/Davidtest/B/K1/CAZCD3WN9Y59HPT0BFUP5A
+/Game/__ExternalActors__/David/Davidtest/6/PF/KQWBBJEU4A9M5PXCIRU773
+/Game/__ExternalActors__/David/Davidtest/0/VL/B9GJ40FH323AJZLDX5DR4S
+/Game/__ExternalActors__/David/Davidtest/D/SJ/J1ZM5N595C8WIO25YKPSVZ
+/Game/__ExternalActors__/David/Davidtest/3/RF/M880ZTD15Z2VIBQTECMBGA
+/Game/__ExternalActors__/David/Davidtest/6/2N/JGS2023YRAPRBO2E3T1LB2
+/Game/__ExternalActors__/David/Davidtest/4/YA/M46O28R22YYDQWLASHESL0
+/Game/__ExternalActors__/David/Davidtest/3/VZ/H4KKEM9BR9APE6JJ2GFR8X
+/Game/__ExternalActors__/David/Davidtest/1/15/RZKFFMQFL060I92LLX74JJ
+/Game/__ExternalActors__/David/Davidtest/E/FO/E7ET3CGJ1PM2KNMH6TCOYJ
+/Game/__ExternalActors__/David/Davidtest/0/O2/JLPHLZLCYVLEJD52I3SEOD
+/Game/__ExternalActors__/David/Davidtest/C/J9/DAWD6N226U4QF0KN1EO9UG
+/Game/__ExternalActors__/David/Davidtest/B/28/07JD8GKE6FSQHH7DKWU26Y
+/Game/__ExternalActors__/David/Davidtest/9/8Q/NO66JW9DTOQ3KRF6KW1FFI
+/Game/__ExternalActors__/David/Davidtest/1/B8/OY9K5LQEP41YJY02EQW7UJ
+/Game/__ExternalActors__/David/Davidtest/C/BE/0UMH0QMD90APSCYSSRYM0U
+/Game/__ExternalActors__/David/Davidtest/0/PH/6ENIBXAVEJYA8NEGBNO60W
+/Game/__ExternalActors__/David/Davidtest/8/1B/SLFTKXGKNQNKMKTWSUL7WI
+/Game/__ExternalActors__/David/Davidtest/A/7J/7L6PSRPH0C6UF4MYCDSR6Q
+/Game/__ExternalActors__/David/Davidtest/4/YI/8WFN0VDFGI9YFADPX4A3KX
+/Game/__ExternalActors__/David/Davidtest/3/AS/C6ACVQPDCDLCH3CNES7PF3
+/Game/__ExternalActors__/David/Davidtest/0/08/IMH0AWXBXG2RWY1REW51XL
+/Game/__ExternalActors__/David/Davidtest/D/UR/P9L60J9ELSV3RZ5CGR39PI
+/Game/__ExternalActors__/David/Davidtest/4/H2/5N8FXNQ2N0PBL9LSDTRFMA
+/Game/__ExternalActors__/David/Davidtest/E/AO/1MZ1GUPF7MDE3ONH02DXQH
+/Game/__ExternalActors__/David/Davidtest/D/TM/WDO469QPH3P6W0VL50ERIR
+/Game/__ExternalActors__/David/Davidtest/6/VA/MI1DPIP89CKAH4MNSDELJK
+/Game/__ExternalActors__/David/Davidtest/D/C4/JADFGY9PP5I0X7KWWGEB79
+/Game/__ExternalActors__/David/Davidtest/7/34/9H05MCFM6H8A77SD2S3ZTZ
+/Game/__ExternalActors__/David/Davidtest/2/SR/LS70QJ19U97W1H169IOBH5
+/Game/__ExternalActors__/David/Davidtest/C/1Z/1V2X46H942LQFX4RGE3CQC
+/Game/__ExternalActors__/David/Davidtest/0/VT/XMOHEVCCAVQU743OEVUHAN
+/Game/__ExternalActors__/David/Davidtest/0/6K/PA8105CP9FIL09Y3SKE0M6
+/Game/__ExternalActors__/David/Davidtest/B/8X/F2U9SF0IBAR2CCL0ZMJUKY
+/Game/__ExternalActors__/David/Davidtest/8/QB/5UFUOFNC0JX4X04HOPX78R
+/Game/__ExternalActors__/David/Davidtest/3/PY/QFGGQCTILDNV67KWDYKEP9
+/Game/__ExternalActors__/David/Davidtest/1/7L/GOP9EYDMSFNXS2A1E42VTQ
+[2025.01.25-06.10.20:714][103]LogFileHelpers: Saving map 'Davidtest' took 0.301
+[2025.01.25-06.10.20:715][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 405.967 ms (total: 899.286 ms)
+[2025.01.25-06.10.20:742][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.01.25-06.10.20:762][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.01.25-06.10.20:780][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.01.25-06.10.20:888][103]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.25-06.10.20:888][103]LogContentValidation: Display: Starting to validate 47 assets
+[2025.01.25-06.10.20:888][103]LogContentValidation: Enabled validators:
+[2025.01.25-06.10.20:888][103]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-06.10.20:888][103]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-06.10.20:888][103]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-06.10.20:888][103]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-06.10.20:888][103]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-06.10.20:888][103]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-06.10.20:889][103]AssetCheck: /Game/David/Davidtest Validating asset
+[2025.01.25-06.10.26:310][375]LogChaosDD: Creating Chaos Debug Draw Scene for world World_0
+[2025.01.25-06.10.26:767][377]LogChaosDD: Creating Chaos Debug Draw Scene for world World_1
+[2025.01.25-06.10.53:836][539]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1078.754883
+[2025.01.25-06.10.54:843][542]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-06.10.54:843][542]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1079.424561, Update Interval: 346.220886
+[2025.01.25-06.16.56:376][855]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1441.295532
+[2025.01.25-06.16.57:377][858]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-06.16.57:377][858]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1441.961548, Update Interval: 344.657135
+[2025.01.25-06.23.12:788][984]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1817.707031
+[2025.01.25-06.23.13:789][987]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-06.23.13:789][987]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1818.374146, Update Interval: 313.121735
+[2025.01.25-06.29.22:024][ 91]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2186.943848
+[2025.01.25-06.29.23:024][ 94]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-06.29.23:024][ 94]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2187.609863, Update Interval: 313.028351
+[2025.01.25-06.34.23:305][ 24]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.01.25-06.34.23:324][ 24]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.01.25-06.34.23:345][ 24]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.01.25-06.34.23:373][ 25]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.01.25-06.34.44:045][310]LogContentBrowser: Attempting asset rename: NewBlueprint -> CharacterSkill
+[2025.01.25-06.34.44:161][310]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.01.25-06.34.48:507][573]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/David/CharacterSkill.CharacterSkill
+[2025.01.25-06.34.48:669][573]LogChaosDD: Creating Chaos Debug Draw Scene for world World_2
+[2025.01.25-06.34.49:082][573]LogStreaming: Display: FlushAsyncLoading(429): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-06.34.51:265][573]LogStaticMesh: Display: Building static mesh PhAT_FloorBox (Required Memory Estimate: 0.024887 MB)...
+[2025.01.25-06.34.51:327][573]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/PhAT_FloorBox) ...
+[2025.01.25-06.34.51:448][573]LogStaticMesh: Built static mesh [0.18s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2025.01.25-06.34.53:079][577]LogPSOHitching: Encountered 100 PSO creation hitches so far (55 graphics, 45 compute). 0 of them were precached.
+[2025.01.25-06.34.55:208][646]LogMeshUtilities: Finished distance field build in 3.7s - 126x126x21 sparse distance field, 0.6Mb total, 0.0Mb always loaded, 100% occupied, 4 triangles, PhAT_FloorBox
+[2025.01.25-06.35.06:130][966]LogSlate: Took 0.090729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.01.25-06.35.26:389][289]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2551.307861
+[2025.01.25-06.35.27:398][292]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-06.35.27:398][292]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2551.979492, Update Interval: 353.296295
+[2025.01.25-06.35.41:204][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.01.25-06.35.41:205][322]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/David/Davidtest' took 0.182
+[2025.01.25-06.35.41:206][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/David/CharacterSkill] ([2] browsable assets)...
+[2025.01.25-06.35.41:207][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/David/CharacterSkill]
+[2025.01.25-06.35.41:212][322]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/David/CharacterSkill_Auto1
+[2025.01.25-06.35.41:212][322]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/CharacterSkill_Auto13BA491134CA897C398703F91F0BDFA57.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/Autosaves/Game/David/CharacterSkill_Auto1.uasset'
+[2025.01.25-06.35.41:213][322]LogFileHelpers: Auto-saving content packages took 0.008
+[2025.01.25-06.38.41:244][412]Cmd: CLOSE_SLATE_MAINFRAME
+[2025.01.25-06.38.41:283][412]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2025.01.25-06.38.42:950][412]LogSlate: Window 'Save Content' being destroyed
+[2025.01.25-06.38.42:973][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-06.38.43:148][412]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/David/CharacterSkill] ([2] browsable assets)...
+[2025.01.25-06.38.43:148][412]OBJ SavePackage: Finished generating thumbnails for package [/Game/David/CharacterSkill]
+[2025.01.25-06.38.43:148][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/David/CharacterSkill" FILE="../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/David/CharacterSkill.uasset" SILENT=true
+[2025.01.25-06.38.43:154][412]LogSavePackage: Moving output files for package: /Game/David/CharacterSkill
+[2025.01.25-06.38.43:154][412]LogSavePackage: Moving '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Saved/CharacterSkill9BF97AB34B601915CE5F0B9347E34E19.tmp' to '../../../../../TeamBubbleTrouble/TeamBubbleTrouble/TeamBubbleTrouble/Content/David/CharacterSkill.uasset'
+[2025.01.25-06.38.43:182][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 209.342 ms (total: 1.10 sec)
+[2025.01.25-06.38.43:285][412]LogStall: Shutdown...
+[2025.01.25-06.38.43:285][412]LogStall: Shutdown complete.
+[2025.01.25-06.38.43:336][412]LogSlate: Window 'CharacterSkill' being destroyed
+[2025.01.25-06.38.43:459][412]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-06.38.43:459][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-06.38.43:564][412]LogSlate: Window 'Plugins' being destroyed
+[2025.01.25-06.38.43:578][412]LogSlate: Window 'TeamBubbleTrouble - Unreal Editor' being destroyed
+[2025.01.25-06.38.43:853][413]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-06.38.43:853][413]LogContentValidation: Enabled validators:
+[2025.01.25-06.38.43:853][413]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-06.38.43:853][413]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-06.38.43:853][413]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-06.38.43:853][413]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-06.38.43:853][413]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-06.38.43:853][413]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-06.38.43:853][413]AssetCheck: /Game/David/CharacterSkill Validating asset
+[2025.01.25-06.38.43:906][413]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2025.01.25-06.38.43:912][413]Cmd: QUIT_EDITOR
+[2025.01.25-06.38.43:912][414]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.01.25-06.38.43:952][414]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.01.25-06.38.43:952][414]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.01.25-06.38.43:953][414]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.01.25-06.38.43:987][414]LogWorld: UWorld::CleanupWorld for Davidtest, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-06.38.43:987][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-06.38.43:987][414]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/David/Davidtest.Davidtest
+[2025.01.25-06.38.44:066][414]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.01.25-06.38.44:139][414]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.01.25-06.38.44:268][414]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-06.38.44:268][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-06.38.44:275][414]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-06.38.44:275][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-06.38.44:318][414]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.01.25-06.38.44:321][414]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.01.25-06.38.44:321][414]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.01.25-06.38.44:321][414]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.01.25-06.38.45:235][414]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.01.25-06.38.45:235][414]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.01.25-06.38.45:235][414]LogAudio: Display: Audio Device unregistered from world 'Davidtest'.
+[2025.01.25-06.38.45:235][414]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.01.25-06.38.45:235][414]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.01.25-06.38.45:238][414]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.01.25-06.38.45:262][414]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.01.25-06.38.45:262][414]LogAudio: Display: Audio Device Manager Shutdown
+[2025.01.25-06.38.45:269][414]LogWindowsTextInputMethodSystem: Activated input method: 繁體中文 (台灣) - 微軟注音 (TSF IME).
+[2025.01.25-06.38.45:281][414]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.01.25-06.38.45:281][414]LogExit: Preparing to exit.
+[2025.01.25-06.38.45:830][414]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2025.01.25-06.38.45:832][414]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.25-06.38.45:832][414]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.25-06.38.45:833][414]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.25-06.38.45:833][414]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.25-06.38.45:833][414]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.25-06.38.45:833][414]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.25-06.38.45:833][414]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.25-06.38.47:125][414]LogEditorDataStorage: Deinitializing
+[2025.01.25-06.38.48:279][414]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.01.25-06.38.48:560][414]LogExit: Editor shut down
+[2025.01.25-06.38.48:564][414]LogExit: Transaction tracking system shut down
+[2025.01.25-06.38.52:027][414]LogExit: Object subsystem successfully closed.
+[2025.01.25-06.38.52:099][414]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.01.25-06.38.54:205][414]LogMemoryProfiler: Shutdown
+[2025.01.25-06.38.54:291][414]LogNetworkingProfiler: Shutdown
+[2025.01.25-06.38.54:291][414]LoadingProfiler: Shutdown
+[2025.01.25-06.38.54:300][414]LogTimingProfiler: Shutdown
+[2025.01.25-06.38.56:190][414]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.01.25-06.38.56:209][414]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.01.25-06.38.56:209][414]LogNFORDenoise: NFORDenoise function shutting down
+[2025.01.25-06.38.56:328][414]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.01.25-06.38.56:328][414]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB9897C25-4839-16F8-37AF-8FAA0345A54C%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=1b95e6de4b3ae55c467293968c60737f%7Ccc07b831cc474aed8f626800cdf08bde%7C52d94bca-880e-4494-8044-0851f5709fa8&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.01.25-06.38.57:076][414]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.01.25-06.38.57:077][414]RenderDocPlugin: plugin has been unloaded.
+[2025.01.25-06.38.57:096][414]LogXGEController: Cleaning working directory: C:/Users/gsn94/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.01.25-06.38.57:128][414]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.01.25-06.38.57:128][414]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.01.25-06.38.57:128][414]LogPakFile: Destroying PakPlatformFile
+[2025.01.25-06.38.58:490][414]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.01.25-06.38.58:787][414]LogExit: Exiting.
+[2025.01.25-06.38.58:826][414]Log file closed, 01/25/25 01:38:58
